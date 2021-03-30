@@ -586,7 +586,6 @@ Text GLabel 9750 2050 2    50   Input ~ 0
 TCK
 NoConn ~ 950  2050
 NoConn ~ 950  2250
-NoConn ~ 950  2350
 NoConn ~ 950  2450
 Text GLabel 5850 3650 2    50   Input ~ 0
 GND
@@ -695,4 +694,15 @@ Text Notes 7500 3500 0    50   ~ 0
 0603
 Text Notes 7500 4200 0    50   ~ 0
 0805
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 606927D8
+P 750 2350
+F 0 "J5" H 830 2392 50  0000 L CNN
+F 1 "Conn_01x01" H 830 2301 50  0000 L CNN
+F 2 "Agnus:PinHeader_1x01_1.27x1.27mm_SMD" H 750 2350 50  0001 C CNN
+F 3 "~" H 750 2350 50  0001 C CNN
+	1    750  2350
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
