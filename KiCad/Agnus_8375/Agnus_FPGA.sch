@@ -488,7 +488,6 @@ NoConn ~ 1950 6150
 NoConn ~ 2150 6150
 NoConn ~ 2350 6150
 NoConn ~ 2550 6150
-NoConn ~ 3250 6150
 NoConn ~ 3350 6150
 NoConn ~ 3850 6150
 NoConn ~ 3950 6150
@@ -705,4 +704,17 @@ F 3 "~" H 750 2350 50  0001 C CNN
 	1    750  2350
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 606C46D4
+P 3050 6900
+F 0 "J6" H 3130 6942 50  0000 L CNN
+F 1 "Conn_01x01" H 3130 6851 50  0000 L CNN
+F 2 "Agnus:PinHeader_1x01_1.5x1.5mm_Vertical" H 3050 6900 50  0001 C CNN
+F 3 "~" H 3050 6900 50  0001 C CNN
+	1    3050 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3250 6150 3250 6900
 $EndSCHEMATC
