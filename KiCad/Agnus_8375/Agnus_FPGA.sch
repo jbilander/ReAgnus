@@ -382,7 +382,6 @@ F 3 "~" H 9550 1850 50  0001 C CNN
 $EndComp
 Text GLabel 9250 1650 0    50   Input ~ 0
 GND
-NoConn ~ 9250 1750
 NoConn ~ 9250 1850
 Text GLabel 9250 1950 0    50   Input ~ 0
 3V3
@@ -577,9 +576,9 @@ Text GLabel 10650 850  1    50   Input ~ 0
 3V3
 Wire Wire Line
 	10350 1250 10350 1650
-Text GLabel 10450 850  1    50   Input ~ 0
+Text GLabel 10550 850  1    50   Input ~ 0
 GND
-Text GLabel 10450 1250 3    50   Input ~ 0
+Text GLabel 10550 1250 3    50   Input ~ 0
 TCK
 Text GLabel 9750 2050 2    50   Input ~ 0
 TCK
@@ -694,17 +693,6 @@ Text Notes 7500 3500 0    50   ~ 0
 Text Notes 7500 4200 0    50   ~ 0
 0805
 $Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 606927D8
-P 750 2350
-F 0 "J5" H 830 2392 50  0000 L CNN
-F 1 "Conn_01x01" H 830 2301 50  0000 L CNN
-F 2 "Agnus:PinHeader_1x01_1.27x1.27mm_SMD" H 750 2350 50  0001 C CNN
-F 3 "~" H 750 2350 50  0001 C CNN
-	1    750  2350
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x01 J6
 U 1 1 606C46D4
 P 3050 6900
@@ -717,4 +705,12 @@ F 3 "~" H 3050 6900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3250 6150 3250 6900
+Text GLabel 9250 1750 0    50   Input ~ 0
+nNTSC
+Text GLabel 10450 1250 3    50   Input ~ 0
+nNTSC
+Wire Wire Line
+	10350 850  10450 850 
+Text GLabel 950  2350 0    50   Input ~ 0
+nNTSC
 $EndSCHEMATC
