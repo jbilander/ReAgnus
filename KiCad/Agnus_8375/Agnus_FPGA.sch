@@ -168,9 +168,9 @@ Text GLabel 5100 1250 1    50   Input ~ 0
 A10_FPGA
 Text GLabel 4400 1250 1    50   Input ~ 0
 A9_FPGA
-Text GLabel 950  1950 0    50   Input ~ 0
-A8_FPGA
 Text GLabel 950  1750 0    50   Input ~ 0
+A8_FPGA
+Text GLabel 950  1650 0    50   Input ~ 0
 A7_FPGA
 Text GLabel 950  2150 0    50   Input ~ 0
 A6_FPGA
@@ -389,7 +389,6 @@ Text GLabel 9250 2050 0    50   Input ~ 0
 GND
 Text GLabel 10350 1500 0    50   Input ~ 0
 TDI
-NoConn ~ 9750 1750
 Text GLabel 10650 1750 0    50   Input ~ 0
 TMS
 Text GLabel 9750 1950 2    50   Input ~ 0
@@ -478,7 +477,6 @@ Text GLabel 950  3350 0    50   Input ~ 0
 3V3
 Text GLabel 950  5150 0    50   Output ~ 0
 RGA6_FPGA
-NoConn ~ 950  1650
 NoConn ~ 950  1850
 NoConn ~ 950  2650
 NoConn ~ 950  5450
@@ -713,4 +711,8 @@ Wire Wire Line
 	10350 850  10450 850 
 Text GLabel 950  2350 0    50   Input ~ 0
 nNTSC
+Text GLabel 9750 1750 2    50   Input ~ 0
+DEBUG_PIN
+Text GLabel 950  1950 0    50   Input ~ 0
+DEBUG_PIN
 $EndSCHEMATC
