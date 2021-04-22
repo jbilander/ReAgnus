@@ -197,7 +197,7 @@ U 1 1 605AF950
 P 6400 2300
 F 0 "U4" H 6400 3667 50  0000 C CNN
 F 1 "SN74CBTD16210" H 6400 3576 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 8050 2750 50  0001 C CNN
+F 2 "Agnus:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_0.8mm" H 8050 2750 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 8050 2750 50  0001 C CNN
 	1    6400 2300
 	1    0    0    -1  
@@ -208,7 +208,7 @@ U 1 1 605B82D1
 P 4350 5150
 F 0 "U5" H 4350 6517 50  0000 C CNN
 F 1 "SN74CBTD16210" H 4350 6426 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 6000 5600 50  0001 C CNN
+F 2 "Agnus:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_0.8mm" H 6000 5600 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 6000 5600 50  0001 C CNN
 	1    4350 5150
 	1    0    0    -1  
@@ -219,7 +219,7 @@ U 1 1 605BA8E0
 P 6400 5150
 F 0 "U6" H 6400 6517 50  0000 C CNN
 F 1 "SN74CBTD16210" H 6400 6426 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 8050 5600 50  0001 C CNN
+F 2 "Agnus:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_0.8mm" H 8050 5600 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 8050 5600 50  0001 C CNN
 	1    6400 5150
 	1    0    0    -1  
@@ -323,7 +323,7 @@ U 1 1 6058DC08
 P 4350 2300
 F 0 "U3" H 4350 3667 50  0000 C CNN
 F 1 "SN74CBTD16210" H 4350 3576 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 6000 2750 50  0001 C CNN
+F 2 "Agnus:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_0.8mm" H 6000 2750 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 6000 2750 50  0001 C CNN
 	1    4350 2300
 	1    0    0    -1  

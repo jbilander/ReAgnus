@@ -218,9 +218,9 @@ Text GLabel 950  3150 0    50   Input ~ 0
 A5_FPGA
 Text GLabel 4900 1250 1    50   Input ~ 0
 A4_FPGA
-Text GLabel 5850 3550 2    50   Input ~ 0
-A3_FPGA
 Text GLabel 950  3050 0    50   Input ~ 0
+A3_FPGA
+Text GLabel 5850 3550 2    50   Input ~ 0
 A2_FPGA
 Text GLabel 5000 1250 1    50   Input ~ 0
 A1_FPGA
