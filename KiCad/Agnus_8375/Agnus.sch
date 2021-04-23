@@ -179,11 +179,11 @@ Text GLabel 1700 5750 3    50   Input ~ 0
 CDAC
 Text GLabel 2850 4300 2    50   Output ~ 0
 LPEN
-Text GLabel 2850 4400 2    50   Input ~ 0
+Text GLabel 2850 4400 2    50   BiDi ~ 0
 VSYNC
 Text GLabel 2850 4500 2    50   Input ~ 0
 CSYNC
-Text GLabel 2850 4600 2    50   Input ~ 0
+Text GLabel 2850 4600 2    50   BiDi ~ 0
 HSYNC
 Text GLabel 2850 5100 2    50   Output ~ 0
 RESET
@@ -386,11 +386,11 @@ Text GLabel 3850 1400 0    50   Input ~ 0
 A18
 Text GLabel 3850 1300 0    50   Input ~ 0
 LPEN
-Text GLabel 3850 1500 0    50   Output ~ 0
+Text GLabel 3850 1500 0    50   BiDi ~ 0
 VSYNC
 Text GLabel 3850 1700 0    50   Output ~ 0
 CSYNC
-Text GLabel 3850 1800 0    50   Output ~ 0
+Text GLabel 3850 1800 0    50   BiDi ~ 0
 HSYNC
 Text GLabel 3850 2300 0    50   BiDi ~ 0
 DRD15
@@ -536,11 +536,11 @@ Text GLabel 4850 1400 2    50   Output ~ 0
 LPEN_FPGA
 Text GLabel 4850 1700 2    50   Output ~ 0
 A17_FPGA
-Text GLabel 4850 1600 2    50   Input ~ 0
+Text GLabel 4850 1600 2    50   BiDi ~ 0
 VSYNC_FPGA
 Text GLabel 4850 1800 2    50   Input ~ 0
 CSYNC_FPGA
-Text GLabel 4850 2000 2    50   Input ~ 0
+Text GLabel 4850 2000 2    50   BiDi ~ 0
 HSYNC_FPGA
 Text GLabel 4850 2100 2    50   Output ~ 0
 A16_FPGA
@@ -701,10 +701,10 @@ VCC
 Text Notes 2300 6400 0    50   ~ 0
 0603
 $Comp
-L Device:C C17
+L Device:C C20
 U 1 1 605F0F7B
 P 3200 6650
-F 0 "C17" H 3300 6650 50  0000 L CNN
+F 0 "C20" H 3300 6650 50  0000 L CNN
 F 1 "0.01uF" H 3200 6550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3238 6500 50  0001 C CNN
 F 3 "~" H 3200 6650 50  0001 C CNN
@@ -712,10 +712,10 @@ F 3 "~" H 3200 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L Device:C C19
 U 1 1 605D5D6F
 P 2850 6650
-F 0 "C16" H 2950 6650 50  0000 L CNN
+F 0 "C19" H 2950 6650 50  0000 L CNN
 F 1 "0.01uF" H 2850 6550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2888 6500 50  0001 C CNN
 F 3 "~" H 2850 6650 50  0001 C CNN
@@ -723,10 +723,10 @@ F 3 "~" H 2850 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C15
+L Device:C C18
 U 1 1 605D5659
 P 2500 6650
-F 0 "C15" H 2600 6650 50  0000 L CNN
+F 0 "C18" H 2600 6650 50  0000 L CNN
 F 1 "0.01uF" H 2500 6550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2538 6500 50  0001 C CNN
 F 3 "~" H 2500 6650 50  0001 C CNN
@@ -734,10 +734,10 @@ F 3 "~" H 2500 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L Device:C C17
 U 1 1 605D3E60
 P 2150 6650
-F 0 "C14" H 2250 6650 50  0000 L CNN
+F 0 "C17" H 2250 6650 50  0000 L CNN
 F 1 "0.01uF" H 2150 6550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2188 6500 50  0001 C CNN
 F 3 "~" H 2150 6650 50  0001 C CNN
