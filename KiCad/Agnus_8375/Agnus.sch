@@ -83,46 +83,6 @@ Text GLabel 2850 4950 2    50   Input ~ 0
 VCC
 Wire Wire Line
 	4850 1200 4850 1300
-Text GLabel 10150 4350 0    50   Input ~ 0
-A20
-Text GLabel 9500 5550 0    50   Input ~ 0
-A1
-Text GLabel 9500 5450 0    50   Input ~ 0
-A2
-Text GLabel 9500 5350 0    50   Input ~ 0
-A3
-Text GLabel 9500 5250 0    50   Input ~ 0
-A4
-Text GLabel 9500 5150 0    50   Input ~ 0
-A5
-Text GLabel 9500 5050 0    50   Input ~ 0
-A6
-Text GLabel 9500 4950 0    50   Input ~ 0
-A7
-Text GLabel 9500 4850 0    50   Input ~ 0
-A8
-Text GLabel 9500 4750 0    50   Input ~ 0
-A9
-Text GLabel 9500 4650 0    50   Input ~ 0
-A10
-Text GLabel 9500 4550 0    50   Input ~ 0
-A11
-Text GLabel 9500 4450 0    50   Input ~ 0
-A12
-Text GLabel 9500 4350 0    50   Input ~ 0
-A13
-Text GLabel 9500 4250 0    50   Input ~ 0
-A14
-Text GLabel 9500 4150 0    50   Input ~ 0
-A15
-Text GLabel 8200 6150 0    50   Input ~ 0
-A16
-Text GLabel 8200 6050 0    50   Input ~ 0
-A17
-Text GLabel 8200 5950 0    50   Input ~ 0
-A18
-Text GLabel 9500 5650 0    50   Input ~ 0
-A19
 Text GLabel 1050 3250 0    50   BiDi ~ 0
 DRD15
 Text GLabel 1050 3350 0    50   BiDi ~ 0
@@ -219,11 +179,11 @@ Text GLabel 1700 5750 3    50   Input ~ 0
 CDAC
 Text GLabel 2850 4300 2    50   Output ~ 0
 LPEN
-Text GLabel 2850 4400 2    50   Input ~ 0
+Text GLabel 2850 4400 2    50   BiDi ~ 0
 VSYNC
 Text GLabel 2850 4500 2    50   Input ~ 0
 CSYNC
-Text GLabel 2850 4600 2    50   Input ~ 0
+Text GLabel 2850 4600 2    50   BiDi ~ 0
 HSYNC
 Text GLabel 2850 5100 2    50   Output ~ 0
 RESET
@@ -231,21 +191,13 @@ Text GLabel 2850 5200 2    50   Input ~ 0
 INTR
 Text GLabel 2850 5300 2    50   Output ~ 0
 DMAL
-Text GLabel 10150 6150 0    50   Input ~ 0
-CASL
-Text GLabel 9500 6150 0    50   Input ~ 0
-CASU
-Text GLabel 9500 5950 0    50   Input ~ 0
-RAS1
-Text GLabel 9500 5850 0    50   Input ~ 0
-RAS0
 $Comp
 L Agnus:SN74CBTD16210 U4
 U 1 1 605AF950
 P 6400 2300
 F 0 "U4" H 6400 3667 50  0000 C CNN
 F 1 "SN74CBTD16210" H 6400 3576 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 8050 2750 50  0001 C CNN
+F 2 "Agnus:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_0.8mm" H 8050 2750 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 8050 2750 50  0001 C CNN
 	1    6400 2300
 	1    0    0    -1  
@@ -256,7 +208,7 @@ U 1 1 605B82D1
 P 4350 5150
 F 0 "U5" H 4350 6517 50  0000 C CNN
 F 1 "SN74CBTD16210" H 4350 6426 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 6000 5600 50  0001 C CNN
+F 2 "Agnus:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_0.8mm" H 6000 5600 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 6000 5600 50  0001 C CNN
 	1    4350 5150
 	1    0    0    -1  
@@ -267,7 +219,7 @@ U 1 1 605BA8E0
 P 6400 5150
 F 0 "U6" H 6400 6517 50  0000 C CNN
 F 1 "SN74CBTD16210" H 6400 6426 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 8050 5600 50  0001 C CNN
+F 2 "Agnus:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_0.8mm" H 8050 5600 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 8050 5600 50  0001 C CNN
 	1    6400 5150
 	1    0    0    -1  
@@ -359,115 +311,6 @@ Text GLabel 2850 3800 2    50   Input ~ 0
 14M
 Text GLabel 2850 1600 2    50   Input ~ 0
 DRA9
-$Comp
-L Connector_Generic:Conn_01x21 J1
-U 1 1 606458A5
-P 8400 5150
-F 0 "J1" H 8350 6250 50  0000 L CNN
-F 1 "Conn_01x21" H 8200 6350 50  0000 L CNN
-F 2 "Agnus:PinHeader_1x21_P1.27mm_Vertical" H 8400 5150 50  0001 C CNN
-F 3 "~" H 8400 5150 50  0001 C CNN
-	1    8400 5150
-	1    0    0    -1  
-$EndComp
-Text GLabel 8200 5350 0    50   BiDi ~ 0
-DRD15
-Text GLabel 8200 5250 0    50   BiDi ~ 0
-DRD14
-Text GLabel 8200 5150 0    50   BiDi ~ 0
-DRD13
-Text GLabel 8200 5050 0    50   BiDi ~ 0
-DRD12
-Text GLabel 8200 4950 0    50   BiDi ~ 0
-DRD11
-Text GLabel 8200 4850 0    50   BiDi ~ 0
-DRD10
-Text GLabel 8200 4750 0    50   BiDi ~ 0
-DRD9
-Text GLabel 8200 4650 0    50   BiDi ~ 0
-DRD8
-Text GLabel 8200 4550 0    50   BiDi ~ 0
-DRD7
-Text GLabel 8200 4450 0    50   BiDi ~ 0
-DRD6
-Text GLabel 8200 4350 0    50   BiDi ~ 0
-DRD5
-Text GLabel 8200 4250 0    50   BiDi ~ 0
-DRD4
-Text GLabel 8200 4150 0    50   BiDi ~ 0
-DRD3
-Text GLabel 8850 5550 0    50   Input ~ 0
-RGA8
-Text GLabel 8850 5650 0    50   Input ~ 0
-RGA7
-Text GLabel 8850 5750 0    50   Input ~ 0
-RGA6
-Text GLabel 8850 5850 0    50   Input ~ 0
-RGA5
-Text GLabel 8850 5950 0    50   Input ~ 0
-RGA4
-Text GLabel 8850 6050 0    50   Input ~ 0
-RGA3
-Text GLabel 8850 6150 0    50   Input ~ 0
-RGA2
-Text GLabel 10150 4150 0    50   Input ~ 0
-RGA1
-Text GLabel 8850 5450 0    50   Input ~ 0
-RAMEN
-Text GLabel 8850 5350 0    50   Input ~ 0
-AS
-Text GLabel 8850 5150 0    50   Input ~ 0
-RW
-Text GLabel 8850 5050 0    50   Input ~ 0
-WE
-Text GLabel 8850 4850 0    50   Input ~ 0
-BLISS
-Text GLabel 8850 4950 0    50   Input ~ 0
-BLIT
-Text GLabel 8850 5250 0    50   Input ~ 0
-REGEN
-Text GLabel 8850 4750 0    50   Input ~ 0
-DMAL
-Text GLabel 8850 4650 0    50   Input ~ 0
-INTR
-Text GLabel 8850 4550 0    50   Input ~ 0
-RESET
-Text GLabel 8850 4450 0    50   Input ~ 0
-VCC
-Text GLabel 8850 4150 0    50   Input ~ 0
-DRD2
-Text GLabel 8850 4250 0    50   Input ~ 0
-DRD1
-Text GLabel 8850 4350 0    50   Input ~ 0
-DRD0
-Text GLabel 8200 5450 0    50   Input ~ 0
-GND
-Text GLabel 8200 5750 0    50   Input ~ 0
-VSYNC
-Text GLabel 8200 5650 0    50   Input ~ 0
-CSYNC
-Text GLabel 8200 5550 0    50   Input ~ 0
-HSYNC
-Text GLabel 8200 5850 0    50   Input ~ 0
-LPEN
-Text GLabel 9500 5750 0    50   Input ~ 0
-GND
-Text GLabel 9500 6050 0    50   Input ~ 0
-DRA9
-Text GLabel 10150 4250 0    50   Input ~ 0
-28M
-Text GLabel 10150 4450 0    50   Input ~ 0
-CDAC
-Text GLabel 10150 4550 0    50   Input ~ 0
-7M
-Text GLabel 10150 4750 0    50   Input ~ 0
-CCK
-Text GLabel 10150 4650 0    50   Input ~ 0
-CCKQ
-Text GLabel 10150 4850 0    50   Input ~ 0
-14M
-Text GLabel 10150 4950 0    50   Input ~ 0
-GND
 Wire Wire Line
 	6900 1300 6900 1200
 Wire Wire Line
@@ -480,7 +323,7 @@ U 1 1 6058DC08
 P 4350 2300
 F 0 "U3" H 4350 3667 50  0000 C CNN
 F 1 "SN74CBTD16210" H 4350 3576 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 6000 2750 50  0001 C CNN
+F 2 "Agnus:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_0.8mm" H 6000 2750 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 6000 2750 50  0001 C CNN
 	1    4350 2300
 	1    0    0    -1  
@@ -523,61 +366,6 @@ Text GLabel 3850 4750 0    50   Input ~ 0
 GND
 Text GLabel 3850 5450 0    50   Input ~ 0
 VCC
-Text GLabel 10150 5850 0    50   Input ~ 0
-DRA8
-Text GLabel 10150 5750 0    50   Input ~ 0
-DRA7
-Text GLabel 10150 5650 0    50   Input ~ 0
-DRA6
-Text GLabel 10150 5550 0    50   Input ~ 0
-DRA5
-Text GLabel 10150 5450 0    50   Input ~ 0
-DRA4
-Text GLabel 10150 5350 0    50   Input ~ 0
-DRA3
-Text GLabel 10150 5250 0    50   Input ~ 0
-DRA2
-Text GLabel 10150 5150 0    50   Input ~ 0
-DRA1
-Text GLabel 10150 5050 0    50   Input ~ 0
-DRA0
-Text GLabel 10150 5950 0    50   Input ~ 0
-LDS
-Text GLabel 10150 6050 0    50   Input ~ 0
-UDS
-$Comp
-L Connector_Generic:Conn_01x21 J2
-U 1 1 6069EFAA
-P 9050 5150
-F 0 "J2" H 9000 6250 50  0000 L CNN
-F 1 "Conn_01x21" H 8850 6350 50  0000 L CNN
-F 2 "Agnus:PinHeader_1x21_P1.27mm_Vertical" H 9050 5150 50  0001 C CNN
-F 3 "~" H 9050 5150 50  0001 C CNN
-	1    9050 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x21 J3
-U 1 1 606A4FE1
-P 9700 5150
-F 0 "J3" H 9650 6250 50  0000 L CNN
-F 1 "Conn_01x21" H 9500 6350 50  0000 L CNN
-F 2 "Agnus:PinHeader_1x21_P1.27mm_Vertical" H 9700 5150 50  0001 C CNN
-F 3 "~" H 9700 5150 50  0001 C CNN
-	1    9700 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x21 J4
-U 1 1 606ABC2B
-P 10350 5150
-F 0 "J4" H 10300 6250 50  0000 L CNN
-F 1 "Conn_01x21" H 10150 6350 50  0000 L CNN
-F 2 "Agnus:PinHeader_1x21_P1.27mm_Vertical" H 10350 5150 50  0001 C CNN
-F 3 "~" H 10350 5150 50  0001 C CNN
-	1    10350 5150
-	1    0    0    -1  
-$EndComp
 Text GLabel 3850 3100 0    50   Input ~ 0
 A10
 Text GLabel 3850 3000 0    50   Input ~ 0
@@ -598,11 +386,11 @@ Text GLabel 3850 1400 0    50   Input ~ 0
 A18
 Text GLabel 3850 1300 0    50   Input ~ 0
 LPEN
-Text GLabel 3850 1500 0    50   Output ~ 0
+Text GLabel 3850 1500 0    50   BiDi ~ 0
 VSYNC
 Text GLabel 3850 1700 0    50   Output ~ 0
 CSYNC
-Text GLabel 3850 1800 0    50   Output ~ 0
+Text GLabel 3850 1800 0    50   BiDi ~ 0
 HSYNC
 Text GLabel 3850 2300 0    50   BiDi ~ 0
 DRD15
@@ -740,16 +528,6 @@ F1 "Agnus_FPGA.sch" 50
 $EndSheet
 Text GLabel 4850 1500 2    50   Output ~ 0
 A18_FPGA
-Wire Notes Line
-	7700 3450 7700 6350
-Wire Notes Line
-	7700 6350 10950 6350
-Wire Notes Line
-	10950 6350 10950 3450
-Wire Notes Line
-	10950 3450 7700 3450
-Text Notes 8850 3700 0    50   ~ 0
-For Castellated holes
 Text GLabel 5900 5850 0    50   Output ~ 0
 RGA6
 Text GLabel 6900 3500 2    50   BiDi ~ 0
@@ -758,11 +536,11 @@ Text GLabel 4850 1400 2    50   Output ~ 0
 LPEN_FPGA
 Text GLabel 4850 1700 2    50   Output ~ 0
 A17_FPGA
-Text GLabel 4850 1600 2    50   Input ~ 0
+Text GLabel 4850 1600 2    50   BiDi ~ 0
 VSYNC_FPGA
 Text GLabel 4850 1800 2    50   Input ~ 0
 CSYNC_FPGA
-Text GLabel 4850 2000 2    50   Input ~ 0
+Text GLabel 4850 2000 2    50   BiDi ~ 0
 HSYNC_FPGA
 Text GLabel 4850 2100 2    50   Output ~ 0
 A16_FPGA
@@ -923,10 +701,10 @@ VCC
 Text Notes 2300 6400 0    50   ~ 0
 0603
 $Comp
-L Device:C C17
+L Device:C C24
 U 1 1 605F0F7B
 P 3200 6650
-F 0 "C17" H 3300 6650 50  0000 L CNN
+F 0 "C24" H 3300 6650 50  0000 L CNN
 F 1 "0.01uF" H 3200 6550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3238 6500 50  0001 C CNN
 F 3 "~" H 3200 6650 50  0001 C CNN
@@ -934,10 +712,10 @@ F 3 "~" H 3200 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L Device:C C23
 U 1 1 605D5D6F
 P 2850 6650
-F 0 "C16" H 2950 6650 50  0000 L CNN
+F 0 "C23" H 2950 6650 50  0000 L CNN
 F 1 "0.01uF" H 2850 6550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2888 6500 50  0001 C CNN
 F 3 "~" H 2850 6650 50  0001 C CNN
@@ -945,10 +723,10 @@ F 3 "~" H 2850 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C15
+L Device:C C22
 U 1 1 605D5659
 P 2500 6650
-F 0 "C15" H 2600 6650 50  0000 L CNN
+F 0 "C22" H 2600 6650 50  0000 L CNN
 F 1 "0.01uF" H 2500 6550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2538 6500 50  0001 C CNN
 F 3 "~" H 2500 6650 50  0001 C CNN
@@ -956,10 +734,10 @@ F 3 "~" H 2500 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L Device:C C21
 U 1 1 605D3E60
 P 2150 6650
-F 0 "C14" H 2250 6650 50  0000 L CNN
+F 0 "C21" H 2250 6650 50  0000 L CNN
 F 1 "0.01uF" H 2150 6550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2188 6500 50  0001 C CNN
 F 3 "~" H 2150 6650 50  0001 C CNN
