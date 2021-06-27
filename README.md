@@ -2,10 +2,11 @@
 A drop-in replacement PCB for the Amiga Agnus chip
 
 
-This is WORK IN PROGRESS and not tested yet. If you generate gerbers and order PCBs from this source you are doing so completely at your own risk!. Probably it will take at least a couple of iterations to make this PCB fit correctly in a PLCC-84 socket if it will fit at all. It is a first prototype, treat it as such. Current design is a four layer board designed for soldering Pin headers 1.27 mm pitch 4 x 21 single row right angle, 0.4 mm square pins, soldered flush against the board edge. Board sides now 30.1 mm pins included.
+This is WORK IN PROGRESS and not tested yet. If you generate gerbers and order PCBs from this source you are doing so completely at your own risk!. It is a  prototype, treat it as such. Current design is a four layer board designed for soldering Pin headers 1.27 mm pitch 4 x 21 single row right angle, 0.4 mm square pins.
 
 <br />
-
+REV 1A
+<br />
 <a href="images/screenshot_pic1.png">
 <img src="images/screenshot_pic1.png" width="336" height="296">
 </a>
@@ -14,19 +15,23 @@ This is WORK IN PROGRESS and not tested yet. If you generate gerbers and order P
 </a>
 
 <br />
-
+REV 1B
+<br />
 <a href="images/screenshot_pic3.png">
-<img src="images/screenshot_pic3.png" width="336" height="296">
+<img src="images/screenshot_pic3.png" width="330" height="330">
 </a>
 <a href="images/screenshot_pic4.png">
-<img src="images/screenshot_pic4.png" width="336" height="296">
+<img src="images/screenshot_pic4.png" width="330" height="330">
 </a>
 
 <br />
-
-<a href="images/screenshot_pic5.png">
-<img src="images/screenshot_pic5.png" width="288" height="264">
+<a href="images/ReAgnus_four_in_one.jpg">
+<img src="images/ReAgnus_four_in_one.jpg" width="512" height="384">
 </a>
+<a href="images/screenshot_pic5.png">
+<img src="images/screenshot_pic5.png" width="360" height="360">
+</a>
+
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
