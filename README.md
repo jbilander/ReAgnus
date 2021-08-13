@@ -32,6 +32,25 @@ REV 1B
 <img src="images/screenshot_pic5.png" width="360" height="360">
 </a>
 
+***
+
+Preliminary BOM Rev. 1B
+---------
+Position  | Name/Value   | Package | Notes
+-|-|-|-|
+U1 | 10M02SCU169C8G | BGA-169 11.0x11.0mm_Layout13x13 | FPGA Intel MAX 10
+U2 | LM1117-3.3 | SOT-223 | Low-Dropout Linear Regulator 3.3 Volt
+U3-U6 | SN74CBTD16210 | TSSOP-48 6.1x12.5mm_P0.5mm | 20-BIT FET Bus switch with level shifting, high-speed TTL-compatible, https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf
+U7 | PinHeaders | 1.27mm pin pitch | https://www.aliexpress.com/item/32767692043.html
+RN1 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 SMD | https://www.digikey.se/product-detail/sv/bourns-inc/CAY16-103J4LF/CAY16-103J4LFCT-ND/
+RN2 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 SMD | ---"---
+C1-3 | Capacitor 10uF | 1206 SMD | 
+C4-C11 | Capacitor 0.1uF = 100nF | 0805 SMD | 
+C12-C24 | Capacitor 0.01uF = 10nF | 0603 SMD |
+JTAG1 | SMT Pin Header Male | SMT 2 x 5 Pin | https://www.aliexpress.com/item/4000123828528.html
+ 
+
+***
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
