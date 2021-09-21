@@ -34,6 +34,19 @@ REV 1B
 
 ***
 
+<br />
+<a href="images/ReAgnus_pic1.jpg">
+<img src="images/ReAgnus_pic1.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_pic2.jpg">
+<img src="images/ReAgnus_pic2.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_pic3.jpg">
+<img src="images/ReAgnus_pic3.jpg" width="256" height="192">
+</a>
+
+***
+
 Preliminary BOM Rev. 1B
 ---------
 Position  | Name/Value   | Package | Notes
