@@ -1,0 +1,52 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10M02SCE144
+D IC FPGA 101 I/O 144EQFP
+K MAX® 10 Field Programmable Gate Array (FPGA) IC 101 110592 2000 144-LQFP Exposed Pad
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/max-10/m10_datasheet.pdf
+$ENDCMP
+#
+$CMP 10M02SCU169
+D 10M02SCU169C8G IC FPGA 130 I/O 169UBGA
+K MAX® 10 Field Programmable Gate Array (FPGA) IC 130 110592 2000 169-LFBGA
+$ENDCMP
+#
+$CMP Agnus_8372
+D PLCC-84
+K FPGA
+$ENDCMP
+#
+$CMP Agnus_8372_socket
+D PLCC-84
+K FPGA
+$ENDCMP
+#
+$CMP Agnus_8375
+D PLCC-84
+K FPGA
+$ENDCMP
+#
+$CMP Agnus_8375_socket
+D PLCC-84
+K FPGA
+$ENDCMP
+#
+$CMP LM1117-3.3
+D 800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
+$CMP SN74CBTD16210
+D 20-bit FET bus switch with level shifter
+K 20-bit FET bus switch with level shifter
+F https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf
+$ENDCMP
+#
+$CMP SN74CBTD16211
+D 24-bit FET bus switch with level shifter
+K 24-bit FET bus switch with level shifter
+F https://www.ti.com/lit/ds/symlink/sn74cbtd16211.pdf
+$ENDCMP
+#
+#End Doc Library
