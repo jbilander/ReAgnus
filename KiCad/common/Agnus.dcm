@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1G07
+D Single buffer open drain output
+K Single buffer open drain output
+F https://www.ti.com/lit/ds/symlink/sn74lvc1g07-q1.pdf
+$ENDCMP
+#
+#End Doc Library
