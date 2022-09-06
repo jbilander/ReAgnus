@@ -245,10 +245,10 @@ VCC
 Connection ~ 2850 6500
 Connection ~ 2850 6800
 $Comp
-L Agnus:Agnus_8375_socket U7
+L Agnus:Agnus_8375_socket U8
 U 1 1 6061C6CA
 P 1950 3350
-F 0 "U7" H 1950 3450 50  0000 C CNN
+F 0 "U8" H 1950 3450 50  0000 C CNN
 F 1 "Agnus_8375_MB_socket" H 1950 3550 50  0000 C CNN
 F 2 "Agnus:Agnus_30.1x30.1mm_P1.27mm_for_edge_plating" H 2350 5650 50  0001 L CIN
 F 3 "" H 1950 3350 50  0001 C CNN

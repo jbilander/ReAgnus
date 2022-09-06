@@ -838,10 +838,10 @@ Wire Wire Line
 Text GLabel 7650 2650 0    50   Input ~ 0
 GND|nNTSC_8372
 $Comp
-L Agnus:74LVC1G07 U8
+L Agnus:74LVC1G07 U7
 U 1 1 6335B2C0
 P 8100 2650
-F 0 "U8" H 8100 3165 50  0000 C CNN
+F 0 "U7" H 8100 3165 50  0000 C CNN
 F 1 "74LVC1G07" H 8100 3074 50  0000 C CNN
 F 2 "Agnus:SOT-353_SC-70-5_Custom_Handsoldering" H 8600 3600 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc1g07-q1.pdf" H 8600 3600 50  0001 C CNN
