@@ -263,7 +263,7 @@ Text GLabel 4450 6150 3    50   Output ~ 0
 CCK_FPGA
 Text GLabel 4150 6150 3    50   Output ~ 0
 14M_FPGA
-Text GLabel 950  3450 0    50   Input ~ 0
+Text GLabel 5850 3650 2    50   Input ~ 0
 28M_FPGA
 Text GLabel 3750 6150 3    50   Output ~ 0
 DRA0_FPGA
@@ -557,10 +557,6 @@ TCK
 NoConn ~ 950  2050
 NoConn ~ 950  2250
 NoConn ~ 950  2450
-Text GLabel 5850 3650 2    50   Input ~ 0
-GND
-Text GLabel 5850 3750 2    50   Input ~ 0
-GND
 Text GLabel 950  3650 0    50   Input ~ 0
 GND
 Text GLabel 950  3850 0    50   Input ~ 0
@@ -887,4 +883,6 @@ Text GLabel 10650 2700 3    50   Input ~ 0
 DONE
 Text GLabel 950  2650 0    50   Input ~ 0
 DONE
+NoConn ~ 5850 3750
+NoConn ~ 950  3450
 $EndSCHEMATC
