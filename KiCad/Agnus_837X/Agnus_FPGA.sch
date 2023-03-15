@@ -108,12 +108,11 @@ Connection ~ 2800 1250
 Wire Wire Line
 	2800 1250 2900 1250
 Wire Wire Line
-	3500 800  3500 1250
+	3400 800  3400 1250
 Wire Wire Line
-	2900 800  3500 800 
+	2900 800  3400 800 
 Wire Wire Line
 	3500 1250 3600 1250
-Connection ~ 3500 1250
 Connection ~ 3600 1250
 Wire Wire Line
 	3600 1250 3700 1250
@@ -874,4 +873,14 @@ Wire Wire Line
 	8550 2850 8900 2850
 Text GLabel 3250 6150 3    50   Input ~ 0
 nNTSC_8372_FPGA
+Wire Wire Line
+	3400 1250 3500 1250
+Connection ~ 3400 1250
+Connection ~ 3500 1250
+Wire Wire Line
+	4100 4550 4200 4550
+Connection ~ 4100 4550
+Connection ~ 4200 4550
+Wire Wire Line
+	4200 4550 4300 4550
 $EndSCHEMATC

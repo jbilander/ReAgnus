@@ -21,6 +21,8 @@ $Comp
 L Agnus:10M02SCU169 U1
 U 1 1 60A0E571
 P 3400 3700
+AR Path="/60A0E571" Ref="U1"  Part="1" 
+AR Path="/608A10F5/60A0E571" Ref="U1"  Part="1" 
 F 0 "U1" H 3400 3750 60  0000 C CNN
 F 1 "10M02SCU169C8G" H 3400 3900 60  0000 C CNN
 F 2 "Package_BGA:BGA-169_11.0x11.0mm_Layout13x13_P0.8mm_Ball0.5mm_Pad0.4mm_NSMD" H 3400 5900 60  0001 C CNN
@@ -108,12 +110,11 @@ Connection ~ 2800 1250
 Wire Wire Line
 	2800 1250 2900 1250
 Wire Wire Line
-	3500 800  3500 1250
+	3400 800  3400 1250
 Wire Wire Line
-	2900 800  3500 800 
+	2900 800  3400 800 
 Wire Wire Line
 	3500 1250 3600 1250
-Connection ~ 3500 1250
 Connection ~ 3600 1250
 Wire Wire Line
 	3600 1250 3700 1250
@@ -848,4 +849,14 @@ Wire Wire Line
 Connection ~ 8100 1500
 Wire Wire Line
 	8100 1500 8500 1500
+Wire Wire Line
+	3400 1250 3500 1250
+Connection ~ 3400 1250
+Connection ~ 3500 1250
+Wire Wire Line
+	4100 4550 4200 4550
+Connection ~ 4100 4550
+Connection ~ 4200 4550
+Wire Wire Line
+	4200 4550 4300 4550
 $EndSCHEMATC
