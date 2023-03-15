@@ -461,7 +461,6 @@ Text GLabel 950  3350 0    50   Input ~ 0
 Text GLabel 950  5150 0    50   Output ~ 0
 RGA6_FPGA
 NoConn ~ 950  1850
-NoConn ~ 950  2650
 NoConn ~ 950  5450
 NoConn ~ 950  5650
 NoConn ~ 1950 6150
@@ -535,14 +534,12 @@ Text GLabel 5850 3150 2    50   Input ~ 0
 3V3
 Text GLabel 10750 2700 3    50   Input ~ 0
 CONFIG_SEL
-NoConn ~ 10650 2700
 Text GLabel 10750 2300 1    50   Input ~ 0
 GND
 Text GLabel 10450 2300 1    50   Input ~ 0
 3V3
 Wire Wire Line
 	10450 2300 10550 2300
-NoConn ~ 10650 2300
 Wire Wire Line
 	10650 1250 10650 1850
 Wire Wire Line
@@ -883,4 +880,11 @@ Connection ~ 4100 4550
 Connection ~ 4200 4550
 Wire Wire Line
 	4200 4550 4300 4550
+Wire Wire Line
+	10550 2300 10650 2300
+Connection ~ 10550 2300
+Text GLabel 10650 2700 3    50   Input ~ 0
+DONE
+Text GLabel 950  2650 0    50   Input ~ 0
+DONE
 $EndSCHEMATC
