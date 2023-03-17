@@ -454,8 +454,6 @@ Text GLabel 4800 1250 1    50   Input ~ 0
 nSTATUS
 Text GLabel 4600 1250 1    50   Input ~ 0
 CONF_DONE
-Text GLabel 950  4050 0    50   Input ~ 0
-GND
 Text GLabel 950  3350 0    50   Input ~ 0
 3V3
 Text GLabel 950  5150 0    50   Output ~ 0
@@ -557,16 +555,6 @@ TCK
 NoConn ~ 950  2050
 NoConn ~ 950  2250
 NoConn ~ 950  2450
-Text GLabel 950  3650 0    50   Input ~ 0
-GND
-Text GLabel 950  3850 0    50   Input ~ 0
-GND
-Text GLabel 950  4250 0    50   Input ~ 0
-GND
-Text GLabel 950  4450 0    50   Input ~ 0
-GND
-Text GLabel 950  4850 0    50   Input ~ 0
-GND
 $Comp
 L Device:C C?
 U 1 1 60636E2E
@@ -885,4 +873,10 @@ Text GLabel 950  2650 0    50   Input ~ 0
 DONE
 NoConn ~ 5850 3750
 NoConn ~ 950  3450
+NoConn ~ 950  4850
+NoConn ~ 950  3650
+NoConn ~ 950  3850
+NoConn ~ 950  4050
+NoConn ~ 950  4250
+NoConn ~ 950  4450
 $EndSCHEMATC
