@@ -131,8 +131,6 @@ Wire Wire Line
 Connection ~ 4100 1250
 Wire Wire Line
 	4100 1250 4200 1250
-Text GLabel 5850 4050 2    50   Input ~ 0
-GND
 Text GLabel 5850 4750 2    50   Input ~ 0
 A18_FPGA
 Text GLabel 5850 5350 2    50   Input ~ 0
@@ -879,4 +877,5 @@ NoConn ~ 950  3850
 NoConn ~ 950  4050
 NoConn ~ 950  4250
 NoConn ~ 950  4450
+NoConn ~ 5850 4050
 $EndSCHEMATC
