@@ -243,7 +243,7 @@ Text GLabel 5850 3850 2    50   Output ~ 0
 DRA3_FPGA
 Text GLabel 5050 6150 3    50   Output ~ 0
 DRA4_FPGA
-Text GLabel 5850 3950 2    50   Output ~ 0
+Text GLabel 5900 3950 2    50   Output ~ 0
 DRA5_FPGA
 Text GLabel 5850 5050 2    50   Output ~ 0
 DRA6_FPGA
@@ -356,7 +356,7 @@ U 1 1 60C7D841
 P 9550 1850
 F 0 "JTAG1" H 9600 1425 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 9600 1516 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 9550 1850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical_SMD" H 9550 1850 50  0001 C CNN
 F 3 "~" H 9550 1850 50  0001 C CNN
 	1    9550 1850
 	-1   0    0    1   
@@ -474,13 +474,8 @@ NoConn ~ 5150 6150
 NoConn ~ 5250 6150
 NoConn ~ 5850 5750
 NoConn ~ 5850 5550
-NoConn ~ 5850 5450
-NoConn ~ 5850 4850
-NoConn ~ 5850 4650
 NoConn ~ 5850 4150
-NoConn ~ 5850 2750
 NoConn ~ 5850 2650
-NoConn ~ 5200 1250
 Connection ~ 8300 3600
 Wire Wire Line
 	9000 3900 9350 3900
@@ -522,9 +517,9 @@ F 3 "~" H 10650 2500 50  0001 C CNN
 	1    10650 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 10550 2700 3    50   Input ~ 0
+Text GLabel 10650 2700 3    50   Input ~ 0
 CONF_DONE
-Text GLabel 10450 2700 3    50   Input ~ 0
+Text GLabel 10550 2700 3    50   Input ~ 0
 nSTATUS
 Text GLabel 5850 3150 2    50   Input ~ 0
 3V3
@@ -865,7 +860,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 2300 10650 2300
 Connection ~ 10550 2300
-Text GLabel 10650 2700 3    50   Input ~ 0
+Text GLabel 10450 2700 3    50   Input ~ 0
 DONE
 Text GLabel 950  2650 0    50   Input ~ 0
 DONE
@@ -873,9 +868,24 @@ NoConn ~ 5850 3750
 NoConn ~ 950  3450
 NoConn ~ 950  4850
 NoConn ~ 950  3650
-NoConn ~ 950  3850
-NoConn ~ 950  4050
 NoConn ~ 950  4250
 NoConn ~ 950  4450
-NoConn ~ 5850 4050
+Text GLabel 5850 2750 2    50   Input ~ 0
+GND
+Text GLabel 5850 4850 2    50   Input ~ 0
+GND
+Text GLabel 5850 5450 2    50   Input ~ 0
+GND
+Text GLabel 5850 4650 2    50   Input ~ 0
+GND
+Text GLabel 5200 1250 1    50   Input ~ 0
+GND
+Text GLabel 950  3850 0    50   Input ~ 0
+GND
+NoConn ~ 950  4050
+Wire Wire Line
+	5900 3950 5850 3950
+Wire Wire Line
+	5850 3950 5850 4050
+Connection ~ 5850 3950
 $EndSCHEMATC
