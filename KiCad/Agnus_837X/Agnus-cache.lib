@@ -472,6 +472,8 @@ F3 "" 0 0 50 H I C CNN
 $FPLIST
  DIP*
  SOIC*
+ R*Array*Concave*
+ R*Array*Convex*
 $ENDFPLIST
 DRAW
 S -250 -95 150 95 0 1 10 f
