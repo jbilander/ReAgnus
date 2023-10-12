@@ -23,7 +23,7 @@ U 1 1 60A0E571
 P 3400 3700
 F 0 "U1" H 3400 3750 60  0000 C CNN
 F 1 "10M02SCU169C8G" H 3400 3900 60  0000 C CNN
-F 2 "Package_BGA:BGA-169_11.0x11.0mm_Layout13x13_P0.8mm_Ball0.5mm_Pad0.4mm_NSMD" H 3400 5900 60  0001 C CNN
+F 2 "Agnus:BGA-169_11.0x11.0mm_Layout13x13_P0.8mm_Ball0.5mm_Pad0.35mm_NSMD" H 3400 5900 60  0001 C CNN
 F 3 "" H 950 5800 60  0000 C CNN
 	1    3400 3700
 	1    0    0    -1  
@@ -161,9 +161,9 @@ Text GLabel 5300 1250 1    50   Input ~ 0
 A12_FPGA
 Text GLabel 4500 1250 1    50   Input ~ 0
 A11_FPGA
-Text GLabel 5100 1250 1    50   Input ~ 0
-A10_FPGA
 Text GLabel 4400 1250 1    50   Input ~ 0
+A10_FPGA
+Text GLabel 950  1850 0    50   Input ~ 0
 A9_FPGA
 Text GLabel 950  1750 0    50   Input ~ 0
 A8_FPGA
@@ -211,19 +211,19 @@ Text GLabel 2650 6150 3    50   BiDi ~ 0
 DRD4_FPGA
 Text GLabel 2950 6150 3    50   BiDi ~ 0
 DRD5_FPGA
-Text GLabel 950  3150 0    50   Input ~ 0
+Text GLabel 950  2050 0    50   Input ~ 0
 A5_FPGA
 Text GLabel 4900 1250 1    50   Input ~ 0
 A4_FPGA
-Text GLabel 950  3050 0    50   Input ~ 0
+Text GLabel 950  2450 0    50   Input ~ 0
 A3_FPGA
 Text GLabel 5850 3550 2    50   Input ~ 0
 A2_FPGA
 Text GLabel 5000 1250 1    50   Input ~ 0
 A1_FPGA
-Text GLabel 5850 4250 2    50   Input ~ 0
+Text GLabel 5850 3350 2    50   Input ~ 0
 A19_FPGA
-Text GLabel 5850 3350 2    50   Output ~ 0
+Text GLabel 5850 4250 2    50   Output ~ 0
 RAS0_FPGA
 Text GLabel 5850 2050 2    50   Output ~ 0
 RAS1_FPGA
@@ -243,7 +243,7 @@ Text GLabel 5850 3850 2    50   Output ~ 0
 DRA3_FPGA
 Text GLabel 5050 6150 3    50   Output ~ 0
 DRA4_FPGA
-Text GLabel 5900 3950 2    50   Output ~ 0
+Text GLabel 5850 4050 2    50   Output ~ 0
 DRA5_FPGA
 Text GLabel 5850 5050 2    50   Output ~ 0
 DRA6_FPGA
@@ -456,7 +456,6 @@ Text GLabel 950  3350 0    50   Input ~ 0
 3V3
 Text GLabel 950  5150 0    50   Output ~ 0
 RGA6_FPGA
-NoConn ~ 950  1850
 NoConn ~ 950  5450
 NoConn ~ 950  5650
 NoConn ~ 1950 6150
@@ -545,9 +544,6 @@ Text GLabel 10550 1250 3    50   Input ~ 0
 TCK
 Text GLabel 9750 2050 2    50   Input ~ 0
 TCK
-NoConn ~ 950  2050
-NoConn ~ 950  2250
-NoConn ~ 950  2450
 $Comp
 L Device:C C?
 U 1 1 60636E2E
@@ -865,7 +861,6 @@ DONE
 Text GLabel 950  2650 0    50   Input ~ 0
 DONE
 NoConn ~ 5850 3750
-NoConn ~ 950  3450
 NoConn ~ 950  4850
 NoConn ~ 950  3650
 NoConn ~ 950  4250
@@ -883,9 +878,14 @@ GND
 Text GLabel 950  3850 0    50   Input ~ 0
 GND
 NoConn ~ 950  4050
-Wire Wire Line
-	5900 3950 5850 3950
-Wire Wire Line
-	5850 3950 5850 4050
-Connection ~ 5850 3950
+NoConn ~ 5100 1250
+Text GLabel 950  3050 0    50   Input ~ 0
+3V3
+Text GLabel 950  2250 0    50   Input ~ 0
+3V3
+NoConn ~ 5850 3950
+Text GLabel 950  3150 0    50   Input ~ 0
+3V3
+Text GLabel 950  3450 0    50   Input ~ 0
+3V3
 $EndSCHEMATC
