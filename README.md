@@ -6,18 +6,49 @@ This is WORK IN PROGRESS. If you generate gerbers and order PCBs from this sourc
 
 ***
 
-REV 2A, design using a PLCC-84-plug
+REV 2B, design using a PLCC-84-plug
 <br />
 <br />
 
-<a href="images/screenshot_pic6.png">
-<img src="images/screenshot_pic6.png" width="320" height="340">
+<a href="images/ReAgnus_rev2b_pic1.png">
+<img src="images/ReAgnus_rev2b_pic1.png" width="233" height="200">
 </a>
-<a href="images/screenshot_pic7.png">
-<img src="images/screenshot_pic7.png" width="320" height="340">
+<a href="images/ReAgnus_rev2b_pic2.png">
+<img src="images/ReAgnus_rev2b_pic2.png" width="357" height="200">
 </a>
-<a href="images/screenshot_pic8.png">
-<img src="images/screenshot_pic8.png" width="320" height="340">
+<a href="images/ReAgnus_rev2b_pic9.png">
+<img src="images/ReAgnus_rev2b_pic9.png" width="205" height="91">
+</a>
+<br />
+<a href="images/ReAgnus_rev2b_pic7.png">
+<img src="images/ReAgnus_rev2b_pic7.png" width="400" height="246">
+</a>
+<a href="images/ReAgnus_rev2b_pic8.png">
+<img src="images/ReAgnus_rev2b_pic8.png" width="400" height="246">
+</a>
+<br />
+
+***
+<a href="images/ReAgnus_rev2b_pic11.png">
+<img src="images/ReAgnus_rev2b_pic11.png" width="605" height="146">
+</a>
+<br />
+<a href="images/ReAgnus_rev2b_pic10.png">
+<img src="images/ReAgnus_rev2b_pic10.png" width="300" height="142">
+</a>
+<br />
+<a href="images/ReAgnus_rev2b_pic4.png">
+<img src="images/ReAgnus_rev2b_pic4.png" width="300" height="198">
+</a>
+<a href="images/ReAgnus_rev2b_pic5.png">
+<img src="images/ReAgnus_rev2b_pic5.png" width="300" height="198">
+</a>
+<br />
+<a href="images/ReAgnus_rev2b_pic6.png">
+<img src="images/ReAgnus_rev2b_pic6.png" width="300" height="198">
+</a>
+<a href="images/ReAgnus_rev2b_pic3.png">
+<img src="images/ReAgnus_rev2b_pic3.png" width="300" height="198">
 </a>
 
 ***
