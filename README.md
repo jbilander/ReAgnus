@@ -53,6 +53,39 @@ REV 2B, design using a PLCC-84-plug
 
 ***
 
+Building Rev 2B.
+
+<a href="images/ReAgnus_rev2b_pic12.jpg">
+<img src="images/ReAgnus_rev2b_pic12.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_rev2b_pic13.jpg">
+<img src="images/ReAgnus_rev2b_pic13.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_rev2b_pic14.jpg">
+<img src="images/ReAgnus_rev2b_pic14.jpg" width="256" height="192">
+</a>
+<br />
+<a href="images/ReAgnus_rev2b_pic15.jpg">
+<img src="images/ReAgnus_rev2b_pic15.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_rev2b_pic16.jpg">
+<img src="images/ReAgnus_rev2b_pic16.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_rev2b_pic17.jpg">
+<img src="images/ReAgnus_rev2b_pic17.jpg" width="256" height="192">
+</a>
+<br />
+<a href="images/ReAgnus_rev2b_pic18.jpg">
+<img src="images/ReAgnus_rev2b_pic18.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_rev2b_pic19.jpg">
+<img src="images/ReAgnus_rev2b_pic19.jpg" width="256" height="192">
+</a>
+
+To be continued...
+
+***
+
 <br />
 REV 1A
 <br />
