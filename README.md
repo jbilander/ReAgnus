@@ -53,6 +53,39 @@ REV 2B, design using a PLCC-84-plug
 
 ***
 
+Building Rev. 2B
+
+<a href="images/ReAgnus_rev2b_pic12.jpg">
+<img src="images/ReAgnus_rev2b_pic12.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_rev2b_pic13.jpg">
+<img src="images/ReAgnus_rev2b_pic13.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_rev2b_pic14.jpg">
+<img src="images/ReAgnus_rev2b_pic14.jpg" width="256" height="192">
+</a>
+<br />
+<a href="images/ReAgnus_rev2b_pic15.jpg">
+<img src="images/ReAgnus_rev2b_pic15.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_rev2b_pic16.jpg">
+<img src="images/ReAgnus_rev2b_pic16.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_rev2b_pic17.jpg">
+<img src="images/ReAgnus_rev2b_pic17.jpg" width="256" height="192">
+</a>
+<br />
+<a href="images/ReAgnus_rev2b_pic18.jpg">
+<img src="images/ReAgnus_rev2b_pic18.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_rev2b_pic19.jpg">
+<img src="images/ReAgnus_rev2b_pic19.jpg" width="256" height="192">
+</a>
+
+To be continued...
+
+***
+
 <br />
 REV 1A
 <br />
@@ -96,7 +129,7 @@ REV 1B
 
 ***
 
-Preliminary BOM Rev. 2A (837X - Universal Agnus PCB design)
+Preliminary BOM Rev. 2B (837X - Universal Agnus PCB design)
 ---------
 Position  | Name/Value   | Package | Notes
 -|-|-|-|
@@ -108,8 +141,11 @@ R1 | Resistor 4.7k or 10k Ω | 0603 SMD | Pull-up resistor for PAL/NTSC selectio
 RN1 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 SMD |
 RN2 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 SMD |
 C1-3 | Capacitor 10uF | 1206 SMD | 
-C4-C11 | Capacitor 0.1uF = 100nF | 0805 SMD | 
-C12-C24 | Capacitor 0.01uF = 10nF | 0603 SMD |
+C4,C5,C8,C11 | Capacitor 1uF | 0805 SMD | 
+C6,C7,C9,C10 | Capacitor 0.1uF = 100nF | 0805 SMD | 
+C12-C19 | Capacitor 0.01uF = 10nF | 0603 SMD |
+C20 | Capacitor 0.1uF = 100nF | 0603 SMD |
+C21-C24 | Capacitor 0.01uF = 10nF | 0603 SMD |
 JTAG1 | SMT Pin Header Male | SMT 2 x 5 Pin | (no need to solder this one, hold against footprint while flashing)
 
 ***
