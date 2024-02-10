@@ -94,8 +94,10 @@ Building Rev. 2B
 <a href="images/ReAgnus_rev2b_pic23.jpg">
 <img src="images/ReAgnus_rev2b_pic23.jpg" width="256" height="192">
 </a>
-
-To be continued...
+<br />
+<a href="images/ReAgnus_rev2b_pic24.jpg">
+<img src="images/ReAgnus_rev2b_pic24.jpg" width="777" height="582">
+</a>
 
 ***
 
