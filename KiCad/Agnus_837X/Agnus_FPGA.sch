@@ -370,7 +370,7 @@ Text GLabel 9250 2050 0    50   Input ~ 0
 GND
 Text GLabel 10350 1500 0    50   Input ~ 0
 TDI
-Text GLabel 10650 1750 0    50   Input ~ 0
+Text GLabel 10550 1650 2    50   Input ~ 0
 TMS
 Text GLabel 9750 1950 2    50   Input ~ 0
 TDO
@@ -457,8 +457,6 @@ Text GLabel 950  3350 0    50   Input ~ 0
 Text GLabel 950  5150 0    50   Output ~ 0
 RGA6_FPGA
 NoConn ~ 950  5450
-NoConn ~ 950  5650
-NoConn ~ 1950 6150
 NoConn ~ 2150 6150
 NoConn ~ 2350 6150
 NoConn ~ 2550 6150
@@ -473,7 +471,6 @@ NoConn ~ 5150 6150
 NoConn ~ 5250 6150
 NoConn ~ 5850 5750
 NoConn ~ 5850 5550
-NoConn ~ 5850 4150
 Connection ~ 8300 3600
 Wire Wire Line
 	9000 3900 9350 3900
@@ -528,16 +525,12 @@ Text GLabel 10450 2300 1    50   Input ~ 0
 Wire Wire Line
 	10450 2300 10550 2300
 Wire Wire Line
-	10650 1250 10650 1850
-Wire Wire Line
-	9750 1850 10650 1850
-Text GLabel 10650 850  1    50   Input ~ 0
-3V3
+	9750 1850 10550 1850
 Wire Wire Line
 	10350 1250 10350 1650
-Text GLabel 10550 850  1    50   Input ~ 0
+Text GLabel 10650 850  1    50   Input ~ 0
 GND
-Text GLabel 10550 1250 3    50   Input ~ 0
+Text GLabel 10650 1250 3    50   Input ~ 0
 TCK
 Text GLabel 9750 2050 2    50   Input ~ 0
 TCK
@@ -857,11 +850,6 @@ Text GLabel 10450 2700 3    50   Input ~ 0
 DONE
 Text GLabel 950  2650 0    50   Input ~ 0
 DONE
-NoConn ~ 5850 3750
-NoConn ~ 950  4850
-NoConn ~ 950  3650
-NoConn ~ 950  4250
-NoConn ~ 950  4450
 Text GLabel 5850 2750 2    50   Input ~ 0
 GND
 Text GLabel 5850 4850 2    50   Input ~ 0
@@ -874,13 +862,11 @@ Text GLabel 5200 1250 1    50   Input ~ 0
 GND
 Text GLabel 950  3850 0    50   Input ~ 0
 GND
-NoConn ~ 950  4050
 NoConn ~ 5100 1250
 Text GLabel 950  3050 0    50   Input ~ 0
 3V3
 Text GLabel 950  2250 0    50   Input ~ 0
 3V3
-NoConn ~ 5850 3950
 Text GLabel 950  3150 0    50   Input ~ 0
 3V3
 Text GLabel 950  3450 0    50   Input ~ 0
@@ -892,4 +878,29 @@ Wire Wire Line
 Connection ~ 10650 2300
 Text GLabel 5850 2650 2    50   Input ~ 0
 nCONFIG
+Text GLabel 950  4050 0    50   Input ~ 0
+GND
+Text GLabel 950  4250 0    50   Input ~ 0
+GND
+Text GLabel 950  4450 0    50   Input ~ 0
+GND
+Text GLabel 950  4850 0    50   Input ~ 0
+3V3
+Text GLabel 5850 3750 2    50   Input ~ 0
+GND
+Text GLabel 5850 3950 2    50   Input ~ 0
+GND
+Text GLabel 950  3650 0    50   Input ~ 0
+3V3
+Text GLabel 950  5650 0    50   Input ~ 0
+GND
+Text GLabel 1950 6150 3    50   Input ~ 0
+GND
+Wire Wire Line
+	10550 850  10450 850 
+Connection ~ 10450 850 
+Wire Wire Line
+	10550 1250 10550 1850
+Text GLabel 5850 4150 2    50   Input ~ 0
+GND
 $EndSCHEMATC
