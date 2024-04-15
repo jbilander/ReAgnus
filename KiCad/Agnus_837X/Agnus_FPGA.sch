@@ -215,7 +215,7 @@ Text GLabel 950  2050 0    50   Input ~ 0
 A5_FPGA
 Text GLabel 4900 1250 1    50   Input ~ 0
 A4_FPGA
-Text GLabel 950  2450 0    50   Input ~ 0
+Text GLabel 950  3050 0    50   Input ~ 0
 A3_FPGA
 Text GLabel 5850 3550 2    50   Input ~ 0
 A2_FPGA
@@ -518,8 +518,6 @@ Text GLabel 10550 2700 3    50   Input ~ 0
 nSTATUS
 Text GLabel 10750 2700 3    50   Input ~ 0
 nCONFIG
-Text GLabel 11000 2200 1    50   Input ~ 0
-GND
 Text GLabel 10450 2300 1    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -630,12 +628,8 @@ Text GLabel 10450 1250 3    50   Input ~ 0
 nNTSC
 Wire Wire Line
 	10350 850  10450 850 
-Text GLabel 950  2350 0    50   Input ~ 0
-nNTSC
-Text GLabel 9750 1750 2    50   Input ~ 0
-DEBUG_PIN
 Text GLabel 950  1950 0    50   Input ~ 0
-DEBUG_PIN
+nNTSC
 $Comp
 L Device:C C?
 U 1 1 608291F3
@@ -846,10 +840,6 @@ Wire Wire Line
 Wire Wire Line
 	10550 2300 10650 2300
 Connection ~ 10550 2300
-Text GLabel 10450 2700 3    50   Input ~ 0
-DONE
-Text GLabel 950  2650 0    50   Input ~ 0
-DONE
 Text GLabel 5850 2750 2    50   Input ~ 0
 GND
 Text GLabel 5850 4850 2    50   Input ~ 0
@@ -863,10 +853,6 @@ GND
 Text GLabel 950  3850 0    50   Input ~ 0
 GND
 NoConn ~ 5100 1250
-Text GLabel 950  3050 0    50   Input ~ 0
-3V3
-Text GLabel 950  2250 0    50   Input ~ 0
-3V3
 Text GLabel 950  3150 0    50   Input ~ 0
 3V3
 Text GLabel 950  3450 0    50   Input ~ 0
@@ -884,8 +870,6 @@ Text GLabel 950  4250 0    50   Input ~ 0
 GND
 Text GLabel 950  4450 0    50   Input ~ 0
 GND
-Text GLabel 950  4850 0    50   Input ~ 0
-3V3
 Text GLabel 5850 3750 2    50   Input ~ 0
 GND
 Text GLabel 5850 3950 2    50   Input ~ 0
@@ -903,4 +887,13 @@ Wire Wire Line
 	10550 1250 10550 1850
 Text GLabel 5850 4150 2    50   Input ~ 0
 GND
+Text GLabel 950  2350 0    50   Input ~ 0
+GND
+NoConn ~ 9750 1750
+NoConn ~ 950  2450
+NoConn ~ 950  2250
+Text GLabel 950  4850 0    50   Input ~ 0
+GND
+NoConn ~ 10450 2700
+NoConn ~ 950  2650
 $EndSCHEMATC
