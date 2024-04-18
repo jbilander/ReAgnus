@@ -144,24 +144,24 @@ REV 1B
 
 ***
 
-Preliminary BOM Rev. 2B (837X - Universal Agnus PCB design)
+Preliminary BOM Rev. 2D (837X - Universal Agnus PCB design)
 ---------
 Position  | Name/Value   | Package | Notes
 -|-|-|-|
-U1 | 10M04SCU169C8G | BGA-169 11.0x11.0mm_Layout13x13 | FPGA Intel MAX 10 [10M04SCU169C8G](https://eu.mouser.com/ProductDetail/989-10M04SCU169C8G)
+U1 | 10M04SCU169C8G | BGA-169 11.0x11.0mm_Layout13x13 | FPGA Intel MAX 10 [10M04SCU169C8G](https://www.mouser.com/ProductDetail/989-10M04SCU169C8G)
 U2 | LM1117-3.3 | SOT-223 | Low-Dropout Linear Regulator 3.3 Volt
-U3-U6 | SN74CBTD16210 | TSSOP-48 6.1x12.5mm_P0.5mm | 20-BIT FET Bus switch with level shifting, high-speed TTL-compatible, https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf
-U7 | 74LVC1G07 | 5-TSSOP, SC-70-5, SOT-353 (2.0 mm × 1.25mm) | [74LVC1G07](https://assets.nexperia.com/documents/data-sheet/74LVC1G07.pdf)
+U3-U6 | SN74CBTD16210 | TSSOP-48 6.1x12.5mm_P0.5mm | 20-BIT FET Bus switch with level shifting, high-speed TTL-compatible. [74CBTD16210DGGR](https://www.mouser.com/ProductDetail/595-74CBTD16210DGGR)
+U7 | 74LVC1G07 | 5-TSSOP, SC-70-5, SOT-353 (2.0 mm × 1.25mm) | [74LVC1G07](https://www.mouser.com/ProductDetail/621-74LVC1G07SE-7)
 R1 | Resistor 4.7k or 10k Ω | 0603 SMD | Pull-up resistor for PAL/NTSC selection for 8372 Agnus FPGA firmware/pinout
-RN1 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 SMD |
-RN2 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 SMD |
+RN1 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 SMD | [CAY16-103J4LF](https://www.mouser.com/ProductDetail/652-CAY16-103J4LF)
+RN2 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 SMD | --"--
 C1-3 | Capacitor 10uF | 1206 SMD | 
 C4,C5,C8,C11 | Capacitor 1uF | 0805 SMD | 
 C6,C7,C9,C10 | Capacitor 0.1uF = 100nF | 0805 SMD | 
 C12-C19 | Capacitor 0.01uF = 10nF | 0603 SMD |
 C20 | Capacitor 0.1uF = 100nF | 0603 SMD |
 C21-C24 | Capacitor 0.01uF = 10nF | 0603 SMD |
-JTAG1 | SMT Pin Header Male | SMT 2 x 5 Pin | (no need to solder this one, hold against footprint while flashing)
+JTAG1 | SMT Pin Header Male | SMT 2 x 5 Pin 2.0mm pitch |
 
 ***
 
