@@ -788,7 +788,7 @@ Wire Wire Line
 Connection ~ 8100 1500
 Wire Wire Line
 	8100 1500 8500 1500
-Text GLabel 7650 2650 0    50   Input ~ 0
+Text GLabel 7250 2650 0    50   Input ~ 0
 GND|nNTSC_8372
 $Comp
 L Agnus:74LVC1G07 U7
@@ -896,4 +896,22 @@ Text GLabel 950  4850 0    50   Input ~ 0
 GND
 NoConn ~ 10450 2700
 NoConn ~ 950  2650
+$Comp
+L Device:R_Small R2
+U 1 1 66A4E4B2
+P 7400 2550
+F 0 "R2" H 7459 2550 50  0000 L CNN
+F 1 "10k" H 7459 2505 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7400 2550 50  0001 C CNN
+F 3 "~" H 7400 2550 50  0001 C CNN
+	1    7400 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 2650 7400 2650
+Connection ~ 7400 2650
+Wire Wire Line
+	7400 2650 7650 2650
+Text GLabel 7400 2450 1    50   Input ~ 0
+VCC
 $EndSCHEMATC
