@@ -49,6 +49,24 @@ Rev. 2B, design using a PLCC-84-plug
 <br />
 
 ***
+
+When ordering from JLCPCB select:
+
+Specify Layer Sequence: Yes
+
+    L1(Top layer):    F_Cu.gbr
+    L2(Inner layer1): GND_Cu.gbr
+    L3(Inner layer2): VCC_Cu.gbr
+    L4(Bottom layer): B_Cu.gbr
+
+Remove Order Number: 
+
+    Specify a location
+
+This will notify JLC where to put the order number, they will replace the "JLCJLCJLCJLC" silkscreen label.
+
+***
+
 <a href="images/ReAgnus_rev2b_pic11.png">
 <img src="images/ReAgnus_rev2b_pic11.png" width="605" height="146">
 </a>
