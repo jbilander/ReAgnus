@@ -5,8 +5,28 @@ A drop-in replacement PCB for the Amiga Agnus chip
 This is WORK IN PROGRESS. If you generate gerbers and order PCBs from this source you are doing so completely at your own risk!.
 
 ***
+Rev. 2D, design using a [PLCC-84 homebrew plug](https://github.com/jbilander/PLCC-84-plug)
 
-REV 2B, design using a PLCC-84-plug
+<a href="images/ReAgnus_rev2d_pic1.jpg">
+<img src="images/ReAgnus_rev2d_pic1.jpg" width="387" height="290">
+</a>
+<a href="images/ReAgnus_rev2d_pic2.jpg">
+<img src="images/ReAgnus_rev2d_pic2.jpg" width="387" height="290">
+</a>
+<br />
+<a href="images/ReAgnus_rev2d_pic3.jpg">
+<img src="images/ReAgnus_rev2d_pic3.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_rev2d_pic4.jpg">
+<img src="images/ReAgnus_rev2d_pic4.jpg" width="256" height="192">
+</a>
+<a href="images/ReAgnus_rev2d_pic5.jpg">
+<img src="images/ReAgnus_rev2d_pic5.jpg" width="256" height="192">
+</a>
+
+***
+
+Rev. 2B, design using a PLCC-84-plug
 <br />
 <br />
 
