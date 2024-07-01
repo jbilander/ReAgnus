@@ -1218,7 +1218,7 @@
     (tags "PLCC LCC")
     (path /6519BFAF)
     (attr smd)
-    (fp_text reference U9 (at 0 -0.001 270) (layer B.SilkS) hide
+    (fp_text reference U8 (at 0 -0.001 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value PLCC_84_plug (at 0 -16.15 270) (layer B.Fab) hide
@@ -1485,7 +1485,7 @@
     (tags "plcc smt")
     (path /6061C6CA)
     (attr smd)
-    (fp_text reference U8 (at 0 0 -270 unlocked) (layer F.SilkS) hide
+    (fp_text reference U9 (at 0 0 -270 unlocked) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Agnus_TH_plug_pins (at 0 19) (layer F.Fab) hide
@@ -2340,7 +2340,7 @@
     (fp_text reference C4 (at -1.1 -1.59) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1uF (at 0 1.65) (layer F.Fab) hide
+    (fp_text value 1uF (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -2376,7 +2376,7 @@
     (fp_text reference C11 (at -0.7 -1.75) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1uF (at 0 1.65) (layer F.Fab) hide
+    (fp_text value 1uF (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))
@@ -2412,7 +2412,7 @@
     (fp_text reference C8 (at -0.54 1.75) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1uF (at 0 1.65) (layer F.Fab) hide
+    (fp_text value 1uF (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))
@@ -2448,7 +2448,7 @@
     (fp_text reference C5 (at -2.39572 0) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
-    (fp_text value 0.1uF (at 0 1.65) (layer F.Fab) hide
+    (fp_text value 1uF (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))

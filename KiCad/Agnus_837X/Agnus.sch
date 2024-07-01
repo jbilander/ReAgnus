@@ -245,10 +245,10 @@ VCC
 Connection ~ 2850 6500
 Connection ~ 2850 6800
 $Comp
-L Agnus:Agnus_8375_socket U8
+L Agnus:Agnus_8375_socket U9
 U 1 1 6061C6CA
 P 4950 3350
-F 0 "U8" H 4950 3450 50  0000 C CNN
+F 0 "U9" H 4950 3450 50  0000 C CNN
 F 1 "Agnus_TH_plug_pins" H 4950 3550 50  0000 C CNN
 F 2 "Agnus:PLCC-84_TH_pin_holes" H 5350 5650 50  0001 L CIN
 F 3 "" H 4950 3350 50  0001 C CNN
@@ -857,10 +857,10 @@ INTR
 Text GLabel 2900 5300 2    50   Output ~ 0
 DMAL
 $Comp
-L Agnus:Agnus_8375_socket U9
+L Agnus:Agnus_8375_socket U8
 U 1 1 6519BFAF
 P 2000 3350
-F 0 "U9" H 2000 3450 50  0000 C CNN
+F 0 "U8" H 2000 3450 50  0000 C CNN
 F 1 "PLCC_84_plug" H 2000 3550 50  0000 C CNN
 F 2 "Agnus:PLCC-84_Plug_P1.27mm_mirrored" H 2400 5650 50  0001 L CIN
 F 3 "" H 2000 3350 50  0001 C CNN
