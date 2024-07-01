@@ -182,7 +182,7 @@ REV 1B
 
 ***
 
-Preliminary BOM Rev. 2E (837X - Universal Agnus PCB design)
+BOM Rev. 2E (837X - Universal Agnus PCB design)
 ---------
 Position  | Name/Value   | Package | Notes
 -|-|-|-|
@@ -190,6 +190,8 @@ U1 | 10M04SCU169C8G | BGA-169 11.0x11.0mm_Layout13x13 | FPGA Intel MAX 10 [10M04
 U2 | LM1117-3.3 | SOT-223 | Low-Dropout Linear Regulator 3.3 Volt
 U3-U6 | SN74CBTD16210 | TSSOP-48 6.1x12.5mm_P0.5mm | 20-BIT FET Bus switch with level shifting, high-speed TTL-compatible. [74CBTD16210DGGR](https://www.mouser.com/ProductDetail/595-74CBTD16210DGGR)
 U7 | 74LVC1G07 | 5-TSSOP, SC-70-5, SOT-353 (2.0 mm × 1.25mm) | [74LVC1G07](https://www.mouser.com/ProductDetail/621-74LVC1G07SE-7)
+U8 | Winslow PLCC-84 Plug | PLCC-84 Plug | Optionally use a home made plug (stacked PCBs)
+U9 | PLCC-84_TH_pin_holes | Agnus_TH_plug_pins | Pins to use with homemade plug, 1.27mm pitch Long Pin 1x40P or 1x50P [Aliexpress](https://www.aliexpress.com/item/32894911767.html) Cut to length after soldering.
 R1 | Resistor 4.7k or 10k Ω | 0603 | Pull-up resistor for PAL/NTSC selection for 8372 Agnus FPGA firmware/pinout
 R2 | Resistor 4.7k or 10k Ω | 0603 | Pull-up resistor for pin 41 (PAL/NTSC-selector for A500 Rev.6A/A2000/A3000-pinout) since A500 Rev.6A doesn't have pull-up on motherboard like A2000/A3000/A3000T have. Only needed for A500 Rev.6A. but doesn't hurt to populate anyway.
 RN1 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 | [CAY16-103J4LF](https://www.mouser.com/ProductDetail/652-CAY16-103J4LF)
@@ -200,7 +202,7 @@ C6,C7,C9,C10 | Capacitor 0.1uF = 100nF | 0805 |
 C12-C19 | Capacitor 0.01uF = 10nF | 0603 |
 C20 | Capacitor 0.1uF = 100nF | 0603 |
 C21-C24 | Capacitor 0.01uF = 10nF | 0603 |
-JTAG1 | SMT Pin Header Male | SMT 2 x 5 Pin 2.0mm pitch |
+JTAG | SMT Pin Header Male | SMT 2 x 5 Pin 2.0mm pitch |
 
 ***
 
